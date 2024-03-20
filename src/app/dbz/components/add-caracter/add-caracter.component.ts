@@ -6,7 +6,7 @@ import { Character } from '../../interfaces/character.interfase';
   templateUrl: './add-caracter.component.html',
   styleUrl: './add-caracter.component.css'
 })
-export class AddCaracterComponent {
+export class AddCharacterComponent {
 
   @Output()
  public onNewCharacter: EventEmitter<Character> = new EventEmitter();
